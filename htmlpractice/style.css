@@ -1,10 +1,43 @@
-.uppercontainer {
-    border-style: double; background-color: gray;
+/*this is for the upper container with the portrait and short description*/
+.backcontainers {
+    border-style: solid; border-width: 2px; background-color: lightgray;
 }
 .topbanner {
     text-align: center; font-family:'Courier New', Courier, monospace; font-weight: bolder; color: black;
-    border-style: dashed; background-color: darkred;
+    border-style: solid; background-color: rgb(175, 175, 175);
+    margin: 10px;
 }
 .portrait {
-    display: block; margin-left: auto; margin-right: auto; width: 75%;
+    display: block; margin-left: auto; margin-right: auto; width: 75%; border: solid black;
+}
+.portraitDescription {
+    text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: black;
+}
+/*this is the end of the top container and start of the middle container for  a brief description of what I'm doing*/
+/*this is so that i can have the two columns*/
+.jobcontainers {
+    border-style: solid; border-width: 2px; background-color: lightgray;
+    display:flex;
+}
+/*this bothers me that this next bit is right to left but I'm too lazy to switch it*/
+.middleright {
+    flex: 50%; 
+    text-align: center;
+    margin: 5px; border:solid black;
+    font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
+    background-color: rgb(175, 175, 175);
+}
+/*Screenwriting on the left, Copywriting on the right*/
+.middleleft {
+    flex: 50%; 
+    text-align: center;
+    margin: 5px; border:solid black;
+    font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
+    background-color: rgb(175, 175, 175);
+}
+.columnheads {
+    font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
+}
+.contacttext {
+    text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: black;;
 }
