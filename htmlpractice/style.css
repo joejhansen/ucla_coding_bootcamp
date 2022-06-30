@@ -35,9 +35,23 @@
     font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
     background-color: rgb(175, 175, 175);
 }
-.columnheads {
+.columnheads, .contacttext {
     font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
 }
-.contacttext {
-    text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: black;;
+.contactcontainer {
+    text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: black;
+    flex-direction: column; flex:100%;
+    margin: 5px; border:solid black;
+    background-color: rgb(175, 175, 175);
+
+}
+.bottomcontainers {
+    display:flex;
+    border-style: solid; border-width: 2px; background-color: lightgray;
+}
+.mainbody {
+    background-color: lightgray;
+}
+.websitelink{
+    margin:5px;
 }
