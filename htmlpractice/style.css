@@ -1,57 +1,72 @@
 /*this is for the upper container with the portrait and short description*/
-.backcontainers {
-    border-style: solid; border-width: 2px; background-color: lightgray;
+.lightgraybackground {
+    background: lightgray;
 }
+
 .topbanner {
-    text-align: center; font-family:'Courier New', Courier, monospace; font-weight: bolder; color: black;
-    border-style: solid; background-color: rgb(175, 175, 175);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: black;
+    border-style: solid;
+    background-color: rgb(175, 175, 175);
     margin: 10px;
 }
+
 .portrait {
-    display: block; margin-left: auto; margin-right: auto; width: 75%; border: solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: solid black;
 }
+
 .portraitDescription {
-    text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: black;
-}
-/*this is the end of the top container and start of the middle container for  a brief description of what I'm doing*/
-/*this is so that i can have the two columns*/
-.jobcontainers {
-    border-style: solid; border-width: 2px; background-color: lightgray;
-    display:flex;
-}
-/*this bothers me that this next bit is right to left but I'm too lazy to switch it*/
-.middleright {
-    flex: 50%; 
     text-align: center;
-    margin: 5px; border:solid black;
-    font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.maincontainers {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.flexible {
+    display: flex;
+}
+
+/*unified to be a single class*/
+.middlecareers {
+    flex: 50%;
+    text-align: center;
+    margin: 5px;
+    border: solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
     background-color: rgb(175, 175, 175);
 }
+
 /*Screenwriting on the left, Copywriting on the right*/
-.middleleft {
-    flex: 50%; 
-    text-align: center;
-    margin: 5px; border:solid black;
-    font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
-    background-color: rgb(175, 175, 175);
+.columnheads {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
 }
-.columnheads, .contacttext {
-    font-family:'Courier New', Courier, monospace; font-weight: bold; color: black;
-}
+
 .contactcontainer {
-    text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: black;
-    flex-direction: column; flex:100%;
-    margin: 5px; border:solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+    border: solid black;
     background-color: rgb(175, 175, 175);
 
 }
-.bottomcontainers {
-    display:flex;
-    border-style: solid; border-width: 2px; background-color: lightgray;
-}
-.mainbody {
-    background-color: lightgray;
-}
-.websitelink{
-    margin:5px;
+
+#websitelink {
+    margin: 5px;
 }
