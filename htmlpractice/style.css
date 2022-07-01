@@ -28,11 +28,6 @@
     color: black;
 }
 
-.maincontainers {
-    border-style: solid;
-    border-width: 2px;
-}
-
 .flexible {
     display: flex;
 }
