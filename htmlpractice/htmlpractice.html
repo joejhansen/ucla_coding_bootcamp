@@ -17,24 +17,26 @@
 
 <body class="lightgraybackground mainbody">
 	<!--this is the upper container-->
-	<div class="lightgraybackground maincontainers">
+	<section class="lightgraybackground maincontainers">
 		<!--this is the top banner of the upper container where my name goes in big letters-->
-		<div class="topbanner">
+		<header class="topbanner">
 			<h1 class="columnheads">Joseph Hansen</h1>
-		</div>
+			<a class="links" href="#careers">Screenwriting</a>
+			<a class="links" href="#careers">Copywriting</a>
+		</header>
 		<!--under that is a portrait of myself with a black border through css-->
 		<div class="portraitdiv">
-			<img class="portrait" src="./josephhansenportrait.jpg" />
+			<img id="portrait" src="./josephhansenportrait.jpg" alt="Joseph Hansen" />
 		</div>
 		<!--one more for rule of thirds or something-->
-		<div class="portraitDescription">
-			<p>Joseph Hansen is a writer in Los Angeles with professional experience in screenwriting and copywriting.
+		<div id="portraitDescription">
+			<p>Professional experience in screenwriting and copywriting.
 			</p>
 		</div>
 		<!--this is the end of the upper container-->
-	</div>
+	</section>
 	<!--this is gonna be in the middle with two paragraphs on either side about myself-->
-	<div class="lightgraybackground flexible maincontainers">
+	<section id="careers" class="lightgraybackground flexible maincontainers">
 		<div class="middlecareers">
 			<h3 class="columnheads">Screenwriting</h3>
 			<p>Written and developed for drama, comedy, horror, and science fiction.</p>
@@ -44,14 +46,14 @@
 			<p>Drafting and designing marketing and advertisements in casual and technical styles, estimated over 1,500
 				documents reviewed.</p>
 		</div>
-	</div>
-	<div class="lightgraybackground maincontainers">
+	</section>
+	<footer class="lightgraybackground maincontainers">
 		<div class="contactcontainer">
 			<h3 class="columnheads">Contact</h3>
 			<p>josephjameshansen@gmail.com</p>
-			<a href="https://www.josephhansen.com" id="websitelink">josephhansen.com</a>
+			<a class="links" href="https://www.josephhansen.com" id="websitelink">josephhansen.com</a>
 		</div>
-	</div>
+	</footer>
 </body>
 
 </html>
